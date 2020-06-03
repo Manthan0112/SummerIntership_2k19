@@ -1,0 +1,50 @@
+<div
+[ngStyle]="{
+  'background-image': 'url(' + imgPath + ')',
+  'background-size' : 'cover',
+  'background-repeat' : 'no-repeat',
+  'opacity' : '0.7',
+  'height' : '504px'
+}"
+>
+  <div
+  style="height: 3rem">
+  </div>
+<div class="row container-fluid">
+  <div
+  [ngStyle]="{ 'background-color': 'black',
+               'opacity': '0.6',
+               'margin' : '20px',
+               'border-radius' : '5px'
+          }"
+  class="container col-lg-6 col-md-6">
+    <form>
+      <div class="form-group">
+        <label class="text-white">Name</label>
+        <input type="text" required class="form-control">
+      </div>
+      <div class="form-group">
+          <label class="text-white">Contact no.</label>
+          <input type="text" required class="form-control">
+      </div>
+      <div class="form-group">
+          <label class="text-white">Email</label>
+          <input type="email" required class="form-control" email>
+      </div>
+      <!-- <div class="form-group">
+          <select class="form-control">
+          <option class="form-control">Mantahn</option>
+          <option class="form-control">Shah</option>
+          <option class="form-control">Mukesj</option>
+          <option class="form-control">Ina</option>
+          <option class="form-control">Chandni</option>
+          </select>
+      </div> -->
+    </form>
+  </div>
+  <div class="col-lg-6 container col-md-6">
+    manthan
+  </div>
+</div>
+		
+</div>

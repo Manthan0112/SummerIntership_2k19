@@ -1,0 +1,24 @@
+
+<!-- <tr>
+      <td>{{ ser.name }}</td>
+      <td>{{ ser.time }}</td>
+      <td>{{ ser.cost }}</td>
+</tr> -->
+
+      <div class="container text-center" style="font-size: 2em">{{ ser }}</div>
+      <table class="table m-0 p-0 table-hover text-white">
+            <thead>
+                  <tr>
+                        <td><h4>Service</h4></td>
+                        <td><h4>Time</h4></td>
+                        <td><h4>Cost</h4></td>
+                  </tr>
+            </thead>
+            <tbody>
+                  <tr *ngFor="let hairServ of hair">
+                        <td>{{ hairServ.name }}</td>
+                        <td>{{ hairServ.time }}</td>
+                        <td>{{ hairServ.cost }}</td>
+                  </tr>
+            </tbody>
+      </table>

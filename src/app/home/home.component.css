@@ -1,0 +1,12 @@
+#main {
+    display: flex;
+}
+
+.div_flex{
+    flex: 1;
+    flex-direction: row-reverse;
+    height: 50vh;
+    width: 200px;
+    transition: flex 500ms ease-in-out;
+    border-radius: 5px;
+}
